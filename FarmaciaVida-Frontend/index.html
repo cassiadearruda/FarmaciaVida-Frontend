@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <title>FarmaciaVida</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-warning">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">FarmáciaVida</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-light btn-lg" aria-current="page" href="#">Produtos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light btn-lg" href="#">Carrinho</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light btn-lg" href="#">Contato</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light btn-lg" href="#">Login</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Pesquisar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/img/1.png" class="d-block w-100" alt="Primeiro Slide">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/2.png" class="d-block w-100" alt="Segundo Slide">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/3.png" class="d-block w-100" alt="Terceiro Slide">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <br>
+
+    <div class="container d-flex justify-content-center">
+    <div class="container p-20">    
+    <button type="button" class="btn bg-warning btn-lg text-light">Medicamentos</button>
+    </div>
+    <div class="container p-20">    
+    <button type="button" class="btn bg-warning btn-lg text-light">Genéricos</button>
+    </div>
+    <div class="container p-20">    
+    <button type="button" class="btn bg-warning btn-lg text-light">Vitaminas</button>
+    </div>
+    <div class="container p-20">    
+    <button type="button" class="btn bg-warning btn-lg text-light">Mamãe/Bebê</button>
+    </div>
+    <div class="container p-20">    
+    <button type="button" class="btn bg-warning btn-lg text-light">Adulto</button>
+    </div>
+    <div class="container p-20">    
+     <button type="button" class="btn bg-warning btn-lg text-light">Higiene</button>
+    </div>
+    <div class="container p-20">    
+    <button type="button" class="btn bg-warning btn-lg text-light">Dermocosméticos</button>
+    </div>
+    </div>
+
+    <br>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-4 g-16">
+        <div class="col">
+          <div class="card">
+            <img src="assets/img/dorflex-small.jpg" class="card-img-top" alt="Dorflex">
+            <div class="card-body">
+              <h5 class="card-title">R$12,99</h5>
+              <p class="card-text">Dorflex - Medicamento</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/img/nanConfor.jpg" class="card-img-top" alt="NAN Confor">
+            <div class="card-body">
+              <h5 class="card-title">R$69,49</h5>
+              <p class="card-text">NAN Confor - Mamãe/Bebê</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/img/imecapHair.jpg" class="card-img-top" alt="Imecap Hair">
+            <div class="card-body">
+              <h5 class="card-title">R$37,87</h5>
+              <p class="card-text">Imecap Hair - Vitaminas</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/img/laRocheProtetorSolar.jpg" class="card-img-top" alt="La Roche">
+            <div class="card-body">
+              <h5 class="card-title">R$102,59</h5>
+              <p class="card-text">La Roche - Dermocosméticos</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <br>
+            <div class="card">
+              <img src="assets/img/tioNacho.jpg" class="card-img-top" alt="Shampoo Clareador Tio Nacho">
+              <div class="card-body">
+                <h5 class="card-title">R$22,77</h5>
+                <p class="card-text">Shampoo Tio Nacho - Higiene</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <br>
+            <div class="card">
+              <img src="assets/img/toalhasHuggies.jpg" class="card-img-top" alt="Toalhas Huggies">
+              <div class="card-body">
+                <h5 class="card-title">R$16,49</h5>
+                <p class="card-text">Toalhas Huggies - Mamãe/Bebê</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <br>
+            <div class="card">
+              <img src="assets/img/dipironaGenerico.jpg" class="card-img-top" alt="Dipirona Genérico">
+              <div class="card-body">
+                <h5 class="card-title">R$2,99</h5>
+                <p class="card-text">Dipirona EMS - Genérico</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <br>
+            <div class="card">
+              <img src="assets/img/neutrox.jpg" class="card-img-top" alt="Neutrox">
+              <div class="card-body">
+                <h5 class="card-title">R$14,99</h5>
+                <p class="card-text">Shampoo Neutrox - Higiene</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col">
+            <br>
+            <div class="card">
+              <img src="assets/img/nistatina.jpg" class="card-img-top" alt="Nistatina">
+              <div class="card-body">
+                <h5 class="card-title">R$12,99</h5>
+                <p class="card-text">Nistatina - Medicamento</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <br>
+            <div class="card">
+              <img src="assets/img/fraldasPampers.jpg" class="card-img-top" alt="Fraldas Pampers">
+              <div class="card-body">
+                <h5 class="card-title">R$109,49</h5>
+                <p class="card-text">Fraldas Pampers - Mamãe/Bebê</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <br>
+            <div class="card">
+              <img src="assets/img/lavtan.jpg" class="card-img-top" alt="Lavtan">
+              <div class="card-body">
+                <h5 class="card-title">R$46,33</h5>
+                <p class="card-text">Lavtan - Vitaminas</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <br>
+            <div class="card">
+              <img src="assets/img/neutrogena.png" class="card-img-top" alt="Neutrogena">
+              <div class="card-body">
+                <h5 class="card-title">R$29,92</h5>
+                <p class="card-text">Neutrogena - Dermocosméticos</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <br>
+              <div class="card">
+                <img src="assets/img/cicatricure.jpg" class="card-img-top" alt="Cicatricure">
+                <div class="card-body">
+                  <h5 class="card-title">R$33,73</h5>
+                  <p class="card-text">Cicatricure - Dermocosméticos</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <br>
+              <div class="card">
+                <img src="assets/img/protex.jpg" class="card-img-top" alt="Sabonete Protex">
+                <div class="card-body">
+                  <h5 class="card-title">R$10,69</h5>
+                  <p class="card-text">Sabonete Protex - Mamãe/Bebê</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <br>
+              <div class="card">
+                <img src="assets/img/luftal.jpg" class="card-img-top" alt="Luftal">
+                <div class="card-body">
+                  <h5 class="card-title">R$19,99</h5>
+                  <p class="card-text">Luftal - Medicamento</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <br>
+              <div class="card">
+                <img src="assets/img/nivea.jpg" class="card-img-top" alt="Desodorante Nívea">
+                <div class="card-body">
+                  <h5 class="card-title">R$16,88</h5>
+                  <p class="card-text">Desodorante Nivea - Higiene</p>
+                </div>
+              </div>
+            </div>
+      </div>
+    </div>
+    <br>
+    <div class="container d-flex justify-content-center">
+      <button type="button" class="btn bg-warning btn-lg text-light">Carregar mais</div>
+    </div> 
+    <br>
+
+    <div class="container">
+    <div class="row mt-5 mb-5">
+      <div class="col-md-6">
+        <h3>Conheça mais sobre a FarmáciaVida!</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sequi ratione cumque veniam nostrum optio
+           et estquisquam dignissimos? Necessitatibus doloribus, quos iure omnis repellendus ipsam dolores rerum ratione 
+           consequatur!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus distinctio velit possimus nesciunt qui dolor
+          est sunt unde voluptate, deserunt voluptas ipsa suscipit asperiores voluptates incidunt dolores beatae placeat 
+          necessitatibus.
+        </p>
+      </div>
+      <div class="col-md-6">
+        <iframe width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/nNDDeegwnMw" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen></iframe>
+      </div>
+    </div>
+    </div>
+    <div class="container p-20">
+    <h3>Encontre a unidade mais próxima:</h3>
+    <div class="row g-2 mb-5">
+      <div class="col-md">
+        <div class="form-floating">
+          <input type="email" class="form-control" id="floatingInputGrid" placeholder="00000-00" value="">
+          <label for="floatingInputGrid">CEP</label>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="form-floating">
+          <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+            <option selected></option>
+            <option value="1">São Paulo</option>
+            <option value="2">Cotia</option>
+            <option value="3">Osasco</option>
+          </select>
+          <label for="floatingSelectGrid">Cidade</label>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="container d-flex justify-content-center mb-5">
+    <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14630.612010160463!2d-46.64708777803587!3d-23.544979733695357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5853d96a1441%3A0xebba5cad95ff31bb!2sZona%20Central%20de%20S%C3%A3o%20Paulo%20-%20Rep%C3%BAblica%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001037-010!5e0!3m2!1spt-BR!2sbr!4v1632350952739!5m2!1spt-BR!2sbr" 
+    width="1200" 
+    height="250" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy">
+    </iframe>
+    </div>
+    <hr>
+    <div class="container d-flex justify-content-center">
+    <footer>
+      <p>
+        FarmáciaVida by Cássia de Arruda &copy;
+    </p>
+    </footer>
+    </div>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
+    
+  </body>
+</html>
